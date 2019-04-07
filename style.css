@@ -1,0 +1,70 @@
+  body
+{
+      margin: 0;
+      padding: 0;
+}
+.container
+{
+      width: 1150px;
+      margin: auto;
+}
+
+ .header
+{
+      width: 100%;
+      height: 350px;
+      background-color: blueviolet;
+ }
+    .header .heading
+    {
+      width: 50%;
+      float: left;
+      margin-top: 100px;
+      border-right: 1px solid darkgray;
+    }
+
+    .header .heading h2
+    {
+      width: 49%;
+      color: #fff;
+      line-height: 1.8;
+      font-size: 25px;
+      font-weight: normal;
+    }
+    .header .heading h2 span:hover
+    {
+        color: #00BC8A;
+        cursor: pointer;
+    }
+
+    .header .Lorem
+    {
+        width: 40%;
+        margin-left: 3%;
+        margin-top: 100px;
+        float: left;
+    }
+
+    .header .Lorem p
+    {
+      font-family: Tahoma;
+      color: darkgray;
+      line-height: 1.8;
+      font-weight: bold;
+
+    }
+    .header .Lorem button
+    {
+        border: 0;
+        background: none;
+        color: #fff;
+        font-size: 20px;
+        background: #00BC8A;
+        padding: 15px;
+        border-radius: 50px;
+        width: 200px;
+        text-transform: uppercase;
+        outline: 0;
+        cursor: pointer;
+    }
+    
